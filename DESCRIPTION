@@ -1,0 +1,17 @@
+Package: normalizar
+Type: Package
+Title: Normalização de strings
+Version: 0.0.0.9000
+Authors@R:
+  person("Leonardo", "Shibata", email = "leonardo.shibata@gmail.com", role = c("aut", "cre"))
+Description: Normaliza strings com o objetivo principal de facilitar
+    a união de tabelas que não utilizem valores padronizados.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    stringr,
+    stringi
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
